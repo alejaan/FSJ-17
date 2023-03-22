@@ -1,0 +1,36 @@
+/** Selector universal para el reseteo de la pagina*/
+*{
+   /** 
+     Con el reseteo solo podemos tener: margin y padding
+   */
+   margin: 0;
+   padding: 0;
+}
+
+header{
+    /**Propiedad para colocar la imagen de fondo */
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M335.95 183.94 a4.68 4.68 0 1 0 9.36 0 a4.68 4.68 0 1 0 -9.36 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M987.15 533.07 a13.74 13.74 0 1 0 27.48 0 a13.74 13.74 0 1 0 -27.48 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M406.02 486.14a6.94 6.94 0 1 0-13.12-4.52z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1125.01 410.58L1140.07 410.58L1140.07 425.64L1125.01 425.64z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1343.72 14.77L1353.22 14.77L1353.22 70.04L1343.72 70.04z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M164.62 296.83a51.77 51.77 0 1 0-11.72 102.88z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1334.66 579.2a40.15 40.15 0 1 0-70.2-39z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M153.7 180.42L190.11 180.42L190.11 216.83L153.7 216.83z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M987.32 170.08L1012.92 170.08L1012.92 174.08L987.32 174.08z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M344.37 233.33 a16.35 16.35 0 1 0 32.7 0 a16.35 16.35 0 1 0 -32.7 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M429.12 206.51 a40.26 40.26 0 1 0 80.52 0 a40.26 40.26 0 1 0 -80.52 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M901.95 3.69L909.89 3.69L909.89 40.35L901.95 40.35z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1096.55 288.62a42.53 42.53 0 1 0 77.78 34.42z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M582.93 47.51 a27.29 27.29 0 1 0 54.58 0 a27.29 27.29 0 1 0 -54.58 0z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M636.15 372.85L662.27 372.85L662.27 398.97L636.15 398.97z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M272.82 33.83a31.5 31.5 0 1 0 59.74-19.98z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1096.12 421.15a42.24 42.24 0 1 0 80.53 25.52z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M508.78 430.11L520.88 430.11L520.88 442.21L508.78 442.21z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1345.63 306.58L1396.65 306.58L1396.65 357.6L1345.63 357.6z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M187.82 154.08L221.09 154.08L221.09 163.55L187.82 163.55z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M690.4 158.74L736.13 158.74L736.13 201.17L690.4 201.17z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M905.76 33.73L910.34 33.73L910.34 38.31L905.76 38.31z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M393.09 286.1L402.55 286.1L402.55 326.29L393.09 326.29z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1260.64 298.23a54.91 54.91 0 1 0 26.29 106.62z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M352.98 491.37 a46.28 46.28 0 1 0 92.56 0 a46.28 46.28 0 1 0 -92.56 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M271.66 513.87 a46.08 46.08 0 1 0 92.16 0 a46.08 46.08 0 1 0 -92.16 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1237.43 368.73L1273.59 368.73L1273.59 404.89L1237.43 404.89z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M377.76 214.84 a31.59 31.59 0 1 0 63.18 0 a31.59 31.59 0 1 0 -63.18 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M835.77 422.6 a16.63 16.63 0 1 0 33.26 0 a16.63 16.63 0 1 0 -33.26 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M486.25 188.97 a28.73 28.73 0 1 0 57.46 0 a28.73 28.73 0 1 0 -57.46 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1178.99 504.15a42.56 42.56 0 1 0-59.79-60.59z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1336.77 389.44a45.97 45.97 0 1 0-60.65-69.1z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1380.36 408.23a15.22 15.22 0 1 0-27.31 13.44z' fill='%23d3b714'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+
+   height: 200px; /** asignando alto a la caja*/
+   color: white;
+   text-align: center; /** alinea el texto al centro*/
+   line-height: 200px;/** propiedad que toma el espacio del alto para que el texto quede al centro*/
+}
+
+
+nav{ 
+    background-color: rgb(37, 32, 82);
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;/** el estilo no va tener ningun estilo*/
+    margin: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none; /** no va tener ninguna decoracion el texto */
+}
+
