@@ -1,0 +1,19 @@
+/** Asigando un comentario */ 
+
+/** llamando al selector por etiqueta */
+body{
+    /** propiedad para color de fondo */
+    background-color: lightblue;
+}
+
+/** llamando al selector clase */ 
+.texto{
+    /** Propiedad para asignar color al texto*/
+    color: #B2CD5B; 
+}
+
+/** llamando al selector ID*/
+
+#parrafo{
+    color: olive;
+}
