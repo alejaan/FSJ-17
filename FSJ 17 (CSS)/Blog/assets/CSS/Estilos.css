@@ -1,3 +1,6 @@
+/** importando una fuente */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 /** Selector universal para el reseteo de la pagina*/
 *{
    /** 
@@ -5,6 +8,12 @@
    */
    margin: 0;
    padding: 0;
+   box-sizing: border-box;/** validamos que las cajas hijas esten solo en la caja padre*/
+}
+
+body{
+    /** asignando tipo de funete*/
+    font-family:'Satisfy', cursive;
 }
 
 header{
@@ -32,5 +41,96 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none; /** no va tener ninguna decoracion el texto */
+}
+
+
+/** agregando estilo al contenido pricipal*/
+
+.box-center{
+    width: 80%; /** define el ancho*/
+    margin: auto; /** se toma el margen automatico que provee el navejador */
+    padding: 25px;
+}
+
+.Titulo{
+    text-align: center;
+    /** 
+        1 rem = 16px    
+    */
+    font-size: 2rem; /** asignando tamaño de la fuente */
+    color: brown;
+}
+
+section{
+    display: flex; 
+        justify-content: space-around;
+
+}
+
+#image{
+    width: 60%;
+}
+
+footer{
+    background-color: rgb(37, 32, 82);
+}
+
+/** Display: asigna como va trabajar un elemento 
+    inline-block: elementos que se ponen en bloque y en las filas
+    flex: los elementos se asignan de forma flexible
+    grid: el elemento va a estar asociado a las columnas y filas
+
+*/
+
+.Footer_container{
+        display: grid;
+        /** asignamos cuantas columnas queremos*/
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        padding: 50px 0; /** el primer numero es arriba y abajo y el segundo numero es left and right*/
+        gap: 20px;
+        color: white;
+}
+
+/** diseñando el apartado de oos iconos*/
+
+.margen{
+    margin: 30px 0;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap; /** trabajando con los elementos si van a estar en filas y los estamos envolviendo en una sola linea*/
+
+}
+
+.icons a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: yellowgreen;
+        border-radius: 50%;
+        color: white;
+        margin: 5px;
+
+}
+
+.Footer_container .info .icons{
+        width: 60%;
+}
+
+.Footer_container .info .icons a{
+    width: 50px;
+    height: 50px;
+}
+
+/**
+    pseudoclase: hover
+*/
+
+.Footer_container .info .icons a :hover{ 
+        background: transparent;
 }
 
