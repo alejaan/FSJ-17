@@ -5,26 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/CSS/Estilos.css">
-    <title>Blog Viajero</title>
+    <title>Contacto</title>
 </head>
-<!--
-    modelo de caja:
-    margin: Espacio de la caja con lo de afuera
-    border: relleno de la caja que tenemos entre el margin y el padding
-    padding: espacio que esta dentro de la caja y su contenido
-    content: contenido o valores de la caja
-
-
-    selectores en CSS
-    Universal: (*): resetear el margin y padding, box-sizing 
-    box-sizing: manera de como movilizar las cajas 
-        - border-box
-        - content-box
-    class (.):
-    ID:(#)
-    Etiqueta:
--->
-
 <body>
     <header>
         <h1> Blog de Viajes</h1>
@@ -44,17 +26,17 @@
         </ul>
     </nav>
     <main class="box-center">
-        <section class="box-section">
-            <article>
-               <img src="assets/img/Man.svg" alt=" Man" id="image" > 
-            </article>
-            <article>
-              <h1 class="Titulo">Hola a todos! Bienvenidos a mi Blog</h1>
-              <p> Mi Nombre es Alejandro Linares, en este sitio web encontraras mis aventuras que eh realizado por 2 años
-
-              </p>
-            </article>
-        </section>
+        <h1 class="Titulo"></h1>
+       <div class="Contacto-fondo"></div>
+       <form>
+        <label for="">Nombre Completo</label>
+        <input type="text" placeholder="Ingresa tu nombre">
+        <label for="">Correo Electronico</label>
+        <input type="Email" placeholder="Ingresa tu Correo">
+        <label for="">Comentarios</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar Datos">
+       </form>
     </main>
     <footer>
         <div class="Footer_container box-center">
