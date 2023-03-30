@@ -162,14 +162,14 @@ footer{
     transition: all .5s;
 }
 
-.seccion-card img :hover{
+.seccion-card img:hover{
     transform: scale(1.1);
 }
 
 /** APARTADO DE CONTACTO*/
 
-.contact-fondo{
-    background-image: url();
+.contacto-fondo{
+    background-image: url(../img/viaje1.jpg);
     height: 30rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -178,7 +178,7 @@ footer{
 .formulario{
     background-color: rgba(192, 192, 192, 0.3);
     margin: -10rem auto 0 auto; /** Top, right, buttom, left*/
-    width: 90%;
+    width: 95%;
     padding: 3rem;
 }
 
@@ -187,8 +187,8 @@ form label{
 }
 
 /** Selector por atrinuto*/
-input[ type=¨text¨]
-input[ type=¨email¨]{
+input[type="text"],
+input[type="email"]{
     width: 100%;
     height: 30px;
     padding: 3px 10px; /** Top bottom - right left*/
@@ -207,7 +207,7 @@ textarea{
     display: block; /** los elementos aplican una abajo de otro*/
 }
 
-input[type=¨submit¨]{
+input[type="submit"]{
     width: 100%;
     padding: 8px;
     margin-top: 32px;
