@@ -12,3 +12,37 @@
         background-position: center;
     }
 }
+
+/** Apartado de las recuadros*/
+
+.img-turismo{
+    width: 100px;
+    object-fit: contain;
+
+}
+
+.img-jovenes{
+    width: 250px;
+    margin: 2.5rem;
+}
+
+.title{
+    font-size:smaller;
+    text-align: justify;
+}
+
+/** Apartado del footer*/
+
+
+.bg-colors{
+    background-color: rgb(44, 43, 43);
+    color: white;
+}
+
+.img-logis{
+    width: 135px;
+}
+
+.info{
+    font-size: smaller;
+}
