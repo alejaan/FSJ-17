@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+    color: chocolate;
+}
+
+.parrafo{
+    text-align: center;
+}
+
+/** Trabajando con el menu*/
+nav{
+    background-image: url(../img/guitars-g9627e381d_1280.jpg);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+nav ul li a{
+    color: #444;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav ul li a::before {
+    display: block;
+    content: "";
+    width: 0%;
+    background: black;
+    height: 2px;
+    position: absolute;
+    transition: width 0.2s;
+}
+
+nav ul li a:hover::before {
+    width: 3%;
+}
+/** Trabajando con el footer*/
+
+footer{
+    background-image: url(../img/grades-g0b43784e6_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1{
+    margin: 15px;
+    text-align: justify;
+    width: 60%;
+    color: white;
+}
+
+.section2{
+    text-align: justify;
+    width: 30%;
+    color: white;
+}

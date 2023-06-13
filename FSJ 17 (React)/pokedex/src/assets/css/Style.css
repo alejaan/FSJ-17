@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.container-fluid{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    filter: drop-shadow(2px 4px 12px yellow);
+    margin-bottom: 5%;
+}
+
+div h1{
+    color:gold;
+}
+
+div h1:hover{
+    color: chartreuse;
+}
+
+h2{
+    font-family: 'Caveat', cursive;
+    font-size: 2.5rem;
+}
+
+.contenedor-img{
+    text-align: center;
+    transition: all .5s;
+}
+
+.contenedor-img:hover{
+    transform: scalex(1.1);
+    color:green;
+}
+
+.contenedor-img img{
+    max-width: 200px;
+    filter: drop-shadow(2px 4px 12px black);
+}
+
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 10px;
+}
+
+.title{
+    font-weight: bold;
+}
